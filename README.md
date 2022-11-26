@@ -1,6 +1,4 @@
 # Projet Spring Boot
-<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="50px">
-  <strong> TEST TECHNIQUE JAVA:</strong> 
  ## Made-by
 this project was made by:
 * Yosra Mekaoui
@@ -9,6 +7,9 @@ this project was made by:
 ## Technologies
 Project is created with:
 * Spring Boot
+<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px" height="50px">
+  <strong> TEST TECHNIQUE JAVA:</strong> 
+
 
 >l'énoncé:
 
