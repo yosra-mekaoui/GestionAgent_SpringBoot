@@ -21,7 +21,8 @@ Project is created with:
 
 # CRUD :
 > Pour GET, utiliser l’end-point /api/v1/agents
-![get](https://user-images.githubusercontent.com/61566287/204068824-2c5d73d2-6cff-40b4-8061-0a441643ce88.PNG)
+![Capture](https://user-images.githubusercontent.com/61566287/204092419-33867862-495e-484e-8da0-79a2c3995c4e.PNG)
+
 
 > Pour POST, utiliser l’end-point /api/v1/agent
 ![add](https://user-images.githubusercontent.com/61566287/204068835-224f1e18-8c9d-42d6-a372-9f3b7aa7ebe5.PNG)
