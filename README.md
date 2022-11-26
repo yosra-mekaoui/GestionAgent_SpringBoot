@@ -33,6 +33,7 @@ Project is created with:
 ![de](https://user-images.githubusercontent.com/61566287/204068849-cd80a709-19f2-4069-9887-dc098a86b384.PNG)
 
 > Les différents statuts possibles sont : active, disconnected, pending, never_connected
+
 ![s](https://user-images.githubusercontent.com/61566287/204068898-5d3b8eae-2ce2-4d30-a08d-469367f6ac4c.PNG)
 
 
