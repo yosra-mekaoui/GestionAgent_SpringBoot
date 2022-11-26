@@ -1,6 +1,5 @@
 # Projet Spring Boot
  ## Made-by
-this project was made by:
 * Yosra Mekaoui
 
 	
