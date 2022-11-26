@@ -1,10 +1,12 @@
 package com.example.demo.Entities;
 import antlr.collections.List;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -23,14 +25,18 @@ public class Agent implements Serializable {
 
 
 
-    @Column(name = "os", length = 30, nullable = false)
+    @Column(name = "os", length = 255, nullable = false)
     private  String os;
 
-    @Temporal(TemporalType.DATE)
+    //@Temporal(TemporalType.DATE)
+    @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss'Z'")
+   // @DateTimeFormat(pattern = "dd-MM-yyyy")
     @Column(name = "lastKeepAlive", nullable = false)
     private Date lastKeepAlive;
 
-    @Temporal(TemporalType.DATE)
+   // @Temporal(TemporalType.DATE)
+   //@DateTimeFormat(pattern = "dd-MM-yyyy")
+   @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss'Z'")
     @Column(name = "dateAdd", nullable = false)
     private  Date dateAdd;
 
