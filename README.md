@@ -25,6 +25,7 @@ Project is created with:
 
 
 > Pour POST, utiliser l’end-point /api/v1/agent
+![316666892_462772759297762_8670219488504836972_n](https://user-images.githubusercontent.com/61566287/204393168-40310314-6212-48d0-8adb-aeddae86fc87.png)
 
 > Pour PUT, utiliser l’end-point /api/v1/{name}
 ![put](https://user-images.githubusercontent.com/61566287/204068845-47598c21-1b97-4ce4-bc81-5c8650b386e2.PNG)
