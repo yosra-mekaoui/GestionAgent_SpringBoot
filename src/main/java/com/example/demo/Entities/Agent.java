@@ -29,14 +29,14 @@ public class Agent implements Serializable {
     private  String os;
 
     //@Temporal(TemporalType.DATE)
-    @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss'Z'")
-   // @DateTimeFormat(pattern = "dd-MM-yyyy")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'") //9999-12-31T23:59:59Z
+    // @DateTimeFormat(pattern = "dd-MM-yyyy")
     @Column(name = "lastKeepAlive", nullable = false)
     private Date lastKeepAlive;
 
-   // @Temporal(TemporalType.DATE)
-   //@DateTimeFormat(pattern = "dd-MM-yyyy")
-   @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss'Z'")
+    // @Temporal(TemporalType.DATE)
+    //@DateTimeFormat(pattern = "dd-MM-yyyy")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'")
     @Column(name = "dateAdd", nullable = false)
     private  Date dateAdd;
 
